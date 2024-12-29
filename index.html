@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Travel Maldives</title>
+		<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+		
+	</head>
+
+	<body>
+
+		<div id="header">
+
+			<!-- logo ne -->
+			<div id="logo"> <!--logo-->
+				<a href="index.html"><img src="images/Logo.PNG"></a>
+			</div>
+
+			<div id="menu"> <!--content menu-->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Tours</a></li>
+					<li><a href="#">Promotion Tours</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+
+			<div id="content-search" > <!--content search-->
+				<form>
+					<input type="text" placeholder="Search Tour">
+					<button type="submit">Search</button>
+				</form>
+
+			</div>
+
+
+		</div> <!--Kết thúc header-->
+
+
+		<div id="banner"> <!--content banner-->
+			<div> <img src="images/Monivongsa-Bopharam.jpg" alt="ChuaMonivongsa-Bopharam"
+					/></div>
+			<div> <img src="images/muicamau.jpg" alt="Mui Ca Mau" /> </div>
+
+
+		</div><!--Kết thúc Banner-->
+
+		<div id="content-detail"> <!--content detail-->
+			<h1>The beautiful tourist destination of Ca Mau is a must to visit</h1>
+			<p><i>Ca Mau is known as the end of the country and is always a must-visit
+				Western tourist destination once in the life of every Vietnamese. The last
+				province of the Vietnamese Fatherland with three sides mainly bordering the
+				sea, coming here visitors will visit the national coordinate landmark, watch
+				the forest, the sea, admire the sunset in the vast sky and sea. Ca Mau
+				exudes a poetic and lyrical, peaceful and rustic beauty that captivates the
+				hearts of visitors. Please introduce the beautiful tourist destinations of
+				Ca Mau not to be missed.</i></p>
+		</div>
+		<section>
+			<h2>-------Choose your favorite tour-------</h2>
+			<div id="form">
+				<label for="tour">Tour</label>
+				<select id="tour" onchange="display()">
+					<option id="t1">TPHCM – Mui Ne</option>
+					<option id="t2">TPHCM – Ca Mau</option>
+					<option id="t3">TPHCM – Vung Tau</option>
+					<option id="t4">TPHCM – DaLat</option>
+					<option id="t5">TPHCM – Ho Tram</option>
+				</select>
+				<span></span><br>
+				<label for="num">Number of people</label>
+				<input type="text" id="num"><br>
+				<label for="depart">Departure day</label>
+				<input type="text" id="depart"><br>
+				<label for="end">End day</label>
+				<input type="text" id="end"><br>
+				<label for="fname">FullName</label>
+				<input type="text" id="fname"><br>
+				<label for="phone">Phone</label>
+				<input type="tel" id="phone"><br>
+			</div>
+			<div id="button"><input type="submit" value="Book Tour" onclick="Caltotal()"></div>
+			<div id="total">Total amount : 0$</div>
+		</section>
+
+			<div id="content-footer"> <!--content footer-->
+				<div id="footer1">
+					<div id="footer1-1">
+						<h3>Contact</h3>
+						<p>Email : Maldives@gmail.com</p>
+						<p>Address: 100 Dien Bien Phu,District 3, HCMC</p>
+						<p>Phone : 012456789222</p>
+
+					</div>
+
+					<div id="footer1-2">
+						<h3>Services</h3>
+						<p>Breakfast buffet</p>
+						<p>Kayaking</p>
+						<p>Camp-fire</p>
+
+					</div>
+				</div>
+
+				<h5 class="copyright">&copy; Copyright 2021. Maldives.com</h5>
+
+			</div>
+
+			<!--Embed Javascript here-->
+		<script src="js/mycode.js"></script>
+
+	</body>
+
+
+	</html>
